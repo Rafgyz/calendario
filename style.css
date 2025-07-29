@@ -131,7 +131,7 @@ section {
 
   #center {
     padding-top: 0;
-    row-gap: calc(1em + auto);
+    row-gap: auto;
   }
   
   section {
@@ -140,7 +140,7 @@ section {
   }
 
   @page {
-    padding-top: 20px;
+    padding-top: 30px;
   }
 }
 
