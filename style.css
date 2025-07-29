@@ -13,6 +13,7 @@
 body {
   display: grid;
   grid-template-columns: minmax(0.1fr, 1fr) 1fr minmax(0.1fr, 1fr);
+  padding-top: 6em;
   justify-content: center;
 }
 
@@ -129,6 +130,7 @@ section {
   }
 
   #center {
+    padding-top: 0;
     row-gap: auto;
   }
   
@@ -138,7 +140,7 @@ section {
   }
 
   @page {
-    padding-top: 50px;
+    margin-top: 40px;
   }
 }
 
