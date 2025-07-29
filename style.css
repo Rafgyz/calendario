@@ -129,6 +129,11 @@ section {
     print-color-adjust: exact;
   }
 
+  #title {
+    margin-top: -1.5em;
+    margin-bottom: 2.5em;
+  }
+
   #center {
     padding-top: 0;
     row-gap: auto;
@@ -140,7 +145,7 @@ section {
   }
 
   @page {
-    padding-top: 30px;
+    padding-top: 40px;
   }
 }
 
