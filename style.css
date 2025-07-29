@@ -132,7 +132,10 @@ section {
   section {
     break-inside: avoid;
     page-break-inside: avoid;
-    margin-top: 1em;
+  }
+
+  @page {
+    margin-top: 10em;
   }
 }
 
