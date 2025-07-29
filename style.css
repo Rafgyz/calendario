@@ -127,6 +127,10 @@ section {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
+
+  #center {
+    row-gap: auto;
+  }
   
   section {
     break-inside: avoid;
