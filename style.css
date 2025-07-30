@@ -129,14 +129,9 @@ section {
     print-color-adjust: exact;
   }
 
-  #title {
-    margin-top: -1.5em;
-    margin-bottom: 2.5em;
-  }
-
   #center {
     padding-top: 0;
-    align-content: space-around;
+    align-content: space-evenly;
   }
   
   section {
