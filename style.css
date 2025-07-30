@@ -136,13 +136,12 @@ section {
 
   #center {
     padding-top: 0;
-    row-gap: auto;
+    align-content: space-around;
   }
   
   section {
     break-inside: avoid;
     page-break-inside: avoid;
-    margin-bottom: minmax(3em, 5em);
   }
 
   @page {
